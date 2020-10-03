@@ -30,19 +30,7 @@ namespace ProvaDeConhecimento_JulianoEloi.Account
                     return;
                 }
                 Session["user"] = uid;
-                //con.Open();
-                //string qry = "select * from Ulogin where UserId='" + uid + "' and Password='" + pass + "'";
-                //SqlCommand cmd = new SqlCommand(qry, con);
-                //SqlDataReader sdr = cmd.ExecuteReader();
-                //if (sdr.Read())
-                //{
-                //    Response.Redirect("BemVindo.aspx");
-                //}
-                //else
-                //{
-                //    Response.Redirect("Sair.aspx");
-                //}
-                //con.Close();
+                
                 if(uid == "scalink" && pass == "pwd123")
                 {
                     Response.Redirect("BemVindo.aspx");
